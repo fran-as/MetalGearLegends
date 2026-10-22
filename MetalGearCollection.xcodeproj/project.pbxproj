@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5120424FF08945B3A70D39C9 /* MetalGearCollectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA2D0F563C747D8BC330D37 /* MetalGearCollectionApp.swift */; };
+		410EEDFB9B1F4418A3A857A6 /* CatalogGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0702821F8F6C4450BE185022 /* CatalogGame.swift */; };
+		7B8BE70C43594A5DA91A2D46 /* GameControllerNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185C1BCCA6754F5682AF8667 /* GameControllerNavigator.swift */; };
+		FA665324D7734F5D8055BFF7 /* MenuAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE5DE080C14A6CB95BD036 /* MenuAudioPlayer.swift */; };
+		3FEEF38E617240D68BAB0DBA /* EmulatorLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93FBC7A92C4CFB95EE1F95 /* EmulatorLauncher.swift */; };
+		56BA1C43B79244468298DF0F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4EA1B1B2446BCB4463D33 /* Theme.swift */; };
+		7BA262DCFEDD4C5EB40425A6 /* CodecFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5D1F18DDA94CEAAB882594 /* CodecFrame.swift */; };
+		16B438C0A0894D86A2174D50 /* GameListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84FCFCD788F435FB0430665 /* GameListRow.swift */; };
+		CED014B056AC4CD1B9AE791D /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2513C6EEB5654C2A969DC917 /* RootView.swift */; };
+		19BF67E4B2634A548DFED3DD /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4EC1554BB74B0DBF8927FB /* LibraryView.swift */; };
+		B63D85883CCF423E92884139 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2F5BE19B43493EB56CE6BB /* GameDetailView.swift */; };
+		7E57E012DDDB41C6828A88AE /* ComingSoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983E244C2E1E46F399711530 /* ComingSoonView.swift */; };
+		44C9E543A8404AD38077A31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F403CA270D41C7B3C741A9 /* Assets.xcassets */; };
+		A77DAC8CF2DA4B6D9847B0AA /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75385EA94CE44E0A5313C62 /* GameController.framework */; };
+		F9E469B561644968BB2DEE86 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CFCF8F9927444ABC24BC71 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D6D0495CEFCD4E12AC2DF296 /* MetalGearCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalGearCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA2D0F563C747D8BC330D37 /* MetalGearCollectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalGearCollectionApp.swift; sourceTree = "<group>"; };
+		0702821F8F6C4450BE185022 /* CatalogGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogGame.swift; sourceTree = "<group>"; };
+		185C1BCCA6754F5682AF8667 /* GameControllerNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControllerNavigator.swift; sourceTree = "<group>"; };
+		3DFE5DE080C14A6CB95BD036 /* MenuAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAudioPlayer.swift; sourceTree = "<group>"; };
+		1A93FBC7A92C4CFB95EE1F95 /* EmulatorLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmulatorLauncher.swift; sourceTree = "<group>"; };
+		0FB4EA1B1B2446BCB4463D33 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9C5D1F18DDA94CEAAB882594 /* CodecFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodecFrame.swift; sourceTree = "<group>"; };
+		A84FCFCD788F435FB0430665 /* GameListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListRow.swift; sourceTree = "<group>"; };
+		2513C6EEB5654C2A969DC917 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		BF4EC1554BB74B0DBF8927FB /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		8A2F5BE19B43493EB56CE6BB /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		983E244C2E1E46F399711530 /* ComingSoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonView.swift; sourceTree = "<group>"; };
+		07F403CA270D41C7B3C741A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F151DA5D5D0A4570B6D77E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75385EA94CE44E0A5313C62 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		21CFCF8F9927444ABC24BC71 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20798D4ECF2E4914986D977B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77DAC8CF2DA4B6D9847B0AA /* GameController.framework in Frameworks */,
+				F9E469B561644968BB2DEE86 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB1D529C132346C2A78D2E67 = {
+			isa = PBXGroup;
+			children = (
+				AF3E9F29B79F4A0E9FB35B5C /* MetalGearCollection */,
+				4E607D76C74645F89E3DEE84 /* Products */,
+				5B0007AC9C16482EB7A5226B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E607D76C74645F89E3DEE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6D0495CEFCD4E12AC2DF296 /* MetalGearCollection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B0007AC9C16482EB7A5226B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E75385EA94CE44E0A5313C62 /* GameController.framework */,
+				21CFCF8F9927444ABC24BC71 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF3E9F29B79F4A0E9FB35B5C /* MetalGearCollection */ = {
+			isa = PBXGroup;
+			children = (
+				FBA2D0F563C747D8BC330D37 /* MetalGearCollectionApp.swift */,
+				B877364E3918473093F1AE84 /* Models */,
+				3E97AE342ADF4C2588B5E9DA /* Services */,
+				C05FE33D4C214C5F80AB35C7 /* Views */,
+				74165F6B39714516BA554F31 /* Resources */,
+				F151DA5D5D0A4570B6D77E11 /* Info.plist */,
+			);
+			path = MetalGearCollection;
+			sourceTree = "<group>";
+		};
+		B877364E3918473093F1AE84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0702821F8F6C4450BE185022 /* CatalogGame.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E97AE342ADF4C2588B5E9DA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				185C1BCCA6754F5682AF8667 /* GameControllerNavigator.swift */,
+				3DFE5DE080C14A6CB95BD036 /* MenuAudioPlayer.swift */,
+				1A93FBC7A92C4CFB95EE1F95 /* EmulatorLauncher.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C05FE33D4C214C5F80AB35C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0FB4EA1B1B2446BCB4463D33 /* Theme.swift */,
+				2513C6EEB5654C2A969DC917 /* RootView.swift */,
+				BF4EC1554BB74B0DBF8927FB /* LibraryView.swift */,
+				8A2F5BE19B43493EB56CE6BB /* GameDetailView.swift */,
+				983E244C2E1E46F399711530 /* ComingSoonView.swift */,
+				656B5148B5AE4FCF949DA1CC /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		656B5148B5AE4FCF949DA1CC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9C5D1F18DDA94CEAAB882594 /* CodecFrame.swift */,
+				A84FCFCD788F435FB0430665 /* GameListRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		74165F6B39714516BA554F31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07F403CA270D41C7B3C741A9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E4BACBC72484A5BB23AFD15 /* MetalGearCollection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F0B4A6C493E444FAB0E1971 /* Build configuration list for PBXNativeTarget "MetalGearCollection" */;
+			buildPhases = (
+				6C7722E67EC148E88E721D49 /* Sources */,
+				20798D4ECF2E4914986D977B /* Frameworks */,
+				0D9DF2D733604A83BF9A2A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalGearCollection;
+			productName = MetalGearCollection;
+			productReference = D6D0495CEFCD4E12AC2DF296 /* MetalGearCollection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3669A325BB2E484392830E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9E4BACBC72484A5BB23AFD15 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 22B9C2CF9C4A45E28E1905ED /* Build configuration list for PBXProject "MetalGearCollection" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB1D529C132346C2A78D2E67;
+			productRefGroup = 4E607D76C74645F89E3DEE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E4BACBC72484A5BB23AFD15 /* MetalGearCollection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D9DF2D733604A83BF9A2A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C9E543A8404AD38077A31E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7722E67EC148E88E721D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5120424FF08945B3A70D39C9 /* MetalGearCollectionApp.swift in Sources */,
+				410EEDFB9B1F4418A3A857A6 /* CatalogGame.swift in Sources */,
+				7B8BE70C43594A5DA91A2D46 /* GameControllerNavigator.swift in Sources */,
+				FA665324D7734F5D8055BFF7 /* MenuAudioPlayer.swift in Sources */,
+				3FEEF38E617240D68BAB0DBA /* EmulatorLauncher.swift in Sources */,
+				56BA1C43B79244468298DF0F /* Theme.swift in Sources */,
+				7BA262DCFEDD4C5EB40425A6 /* CodecFrame.swift in Sources */,
+				16B438C0A0894D86A2174D50 /* GameListRow.swift in Sources */,
+				CED014B056AC4CD1B9AE791D /* RootView.swift in Sources */,
+				19BF67E4B2634A548DFED3DD /* LibraryView.swift in Sources */,
+				B63D85883CCF423E92884139 /* GameDetailView.swift in Sources */,
+				7E57E012DDDB41C6828A88AE /* ComingSoonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		69EE33C75FF4448EB347D302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA3DA2449D8C48F796FDC733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1F24CFF9030942A580042755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MetalGearCollection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.franas.MetalGearCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		507FA041480749B08440874C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MetalGearCollection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.franas.MetalGearCollection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B9C2CF9C4A45E28E1905ED /* Build configuration list for PBXProject "MetalGearCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69EE33C75FF4448EB347D302 /* Debug */,
+				DA3DA2449D8C48F796FDC733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0B4A6C493E444FAB0E1971 /* Build configuration list for PBXNativeTarget "MetalGearCollection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F24CFF9030942A580042755 /* Debug */,
+				507FA041480749B08440874C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3669A325BB2E484392830E18 /* Project object */;
+}
